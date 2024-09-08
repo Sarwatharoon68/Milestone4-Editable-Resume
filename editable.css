@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: lightcyan;
+}
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+    font-style: italic;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: lavender;
+    border: 8px solid lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(1, 28, 32, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    margin: 20px;
+    border: 8px solid lightcyan;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: lightcyan;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input, textarea {
+    border: 2px solid darkcyan;
+    width: calc(100% - 2px);
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea:focus, input:focus {
+    border-color: darkcyan;
+    outline: none;
+    box-shadow: 0 0 10px darkcyan;
+}
+
+button {
+    color: darkcyan;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid darkcyan;
+    font-size: 15px;
+    cursor: pointer;
+    width: 20%;
+}
+
+button:hover {
+    background-color: darkcyan;
+    color: lightcyan;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    color: darkcyan;
+}
+
+#dynamicResume {
+    max-width: 650px;
+    margin: auto;
+    padding: 2px;
+    border: 2px solid lightcyan;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(1, 28, 32, 0.5);
+    background-color: lavender;
+}
+
+.editable {
+    cursor: pointer;
+}
+
+.editing {
+    border: 1px solid darkcyan;
+}

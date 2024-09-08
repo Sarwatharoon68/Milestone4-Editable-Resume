@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="editable.css".css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;"><u>Editable Resume By Sarwat Haroon :</u></h1>
+    </header>
+    <main>
+        <section>
+            <form id="resumeForm">
+                <fieldset>
+                    <legend><h1><u>Personal Info</u></h1></legend>
+                    <label style="font-weight: bolder; color: darkcyan;" for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label style="font-weight: bolder; color: darkcyan;" for="FatherName">Father's Name:</label>
+                    <input type="text" id="FatherName" name="FatherName" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                    <legend><h1><u>Qualification</u></h1></legend>
+                    <label for="qualification">Qualification:</label>
+                    <textarea id="qualification" name="qualification" rows="4" required></textarea><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend><h1><u>Experience</u></h1></legend>
+                    <label for="experience">Experience:</label>
+                    <textarea id="experience" name="experience" rows="4" required></textarea><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend><h1><u>Skills</u></h1></legend>
+                    <label for="Skills">Skills:</label>
+                    <textarea id="Skills" name="Skills" rows="4" required></textarea><br>
+                </fieldset>
+                <br>
+                <button type="submit">Generate Resume Below</button>
+            </form>
+            <div id="dynamicResume">
+                <!-- Dynamic Resume -->
+            </div>
+             <script src="editable.js"></script>
+        </section>
+    </main>
+</body>
+</html>
